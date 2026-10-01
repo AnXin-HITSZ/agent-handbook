@@ -1,0 +1,25 @@
+# 系统和编辑器临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.tmp
+
+# 日志与 Python 缓存
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地环境（共享示例可提交）
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# .codex/ 和 .claude/ 可能保存共享配置，不整体忽略。
